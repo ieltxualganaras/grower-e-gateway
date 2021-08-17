@@ -10,9 +10,6 @@ export class CreateSynchronizableActionDto {
   @IsString()
   public origin: string;
 
-  @IsString()
-  public client: string;
-
   @IsObject()
   payload: any;
 }
